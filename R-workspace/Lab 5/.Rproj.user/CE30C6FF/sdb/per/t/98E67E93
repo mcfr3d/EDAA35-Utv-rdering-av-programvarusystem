@@ -1,0 +1,17 @@
+{
+    "contents" : "\nmeansArray <- vector('numeric')\n\nfor(i in 1:100){\nsystem (\"java -Xint Lab data1.txt result1.txt 600\")\ndata1 <- read.csv('result1.txt')\ndata1 <- data1[100:nrow(data1),2]\nmeansArray <- c(meansArray,mean(data1))\n}\nmeanOfMean <- mean(meansArray)\nci1 <-confidenceInterval(meansArray)\nprint(meanOfMean)\n\n\n\n",
+    "created" : 1456850056847.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "522250860",
+    "id" : "98E67E93",
+    "lastKnownWriteTime" : 1456852674,
+    "path" : "~/R-workspace/Lab 5/meanNConfidenceScript.R",
+    "project_path" : "meanNConfidenceScript.R",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : true,
+    "type" : "r_source"
+}

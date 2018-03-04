@@ -1,0 +1,17 @@
+{
+    "contents" : "data <- read.csv(utfil1.txt)\nsetwd(\"~/R-workspace/Lab 5\")\ndata <- read.csv(utfil1.txt)\ndata <- read.csv(utfil1)\ndata <- read.table(utfil1.txt)\ndata <- read.csv('utfil1.txt')\nView(data)\nplot(data)\ndata <- read.csv('utfil21.txt')\nView(data)\nplot(data)\ndata <- read.csv('utfil22.txt')\nplot(data)\nplot(data)\n?system\nplotresult()\nplotresult\nplotresult()\nsetwd(\"~/R-workspace/Lab 5\")\nplotresult()\nplotresult.R\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/plotresult.R')\nsource('~/R-workspace/Lab 5/PLOTIT.R')\nsource('~/R-workspace/Lab 5/PLOTIT.R')\nsource('~/R-workspace/Lab 5/PLOTIT.R')\n",
+    "created" : 1456847817334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1259411982",
+    "id" : "84776E03",
+    "lastKnownWriteTime" : 1456409739,
+    "path" : "~/R-workspace/Lab 5/.Rhistory",
+    "project_path" : ".Rhistory",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_history"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "confidenceInterval <- function(x, confidenceLevel=0.95){\n\tN <- length(x)\n\talpha <- 1-confidenceLevel\n\tif (N<30)\n\t   stat <- qt(1-alpha/2, N-1)\n\telse \n\t   stat <- qnorm(1-alpha/2)\n\tinterval <- stat * sd(x) / sqrt(N)\n\tmean_value <- mean(x)\n\tresult <- c(mean_value-interval, mean_value+interval)\n\tnames(result) <- c(\"lower\", \"upper\")\n\tresult\n}",
+    "created" : 1456847627595.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3387019621",
+    "id" : "7C20C72B",
+    "lastKnownWriteTime" : 1456847669,
+    "path" : "~/R-workspace/Lab 5/R_resources.R",
+    "project_path" : "R_resources.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "type" : "r_source"
+}

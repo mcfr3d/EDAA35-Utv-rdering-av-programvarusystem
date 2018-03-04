@@ -1,0 +1,18 @@
+{
+    "contents" : "# function for plotting data\nplotresult = function ( file , start = 1) {\n  data <- read.csv( file )\n  data <- data [ start : nrow ( data ) ,]\n  plot ( data , type = 'l')\n}\n\nsystem (\"java Lab data1.txt result1.txt 600\")\nplotresult (\"result1.txt\") # plot to screen\n\npdf (\"result1.pdf\")\nplotresult (\"result1.txt\") # plot to pdf file\ndev.off ()",
+    "created" : 1456849915128.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "458594239",
+    "id" : "83EB85E6",
+    "lastKnownWriteTime" : 1456852913,
+    "path" : "~/R-workspace/Lab 5/plotScript.R",
+    "project_path" : "plotScript.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : true,
+    "type" : "r_source"
+}
